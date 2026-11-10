@@ -22,3 +22,4 @@ if defect_rate <= maximum_defect_rate:
     print("Status: PASS")
 else:
     print("Status: FAIL")
+    
