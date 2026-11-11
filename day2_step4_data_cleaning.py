@@ -42,3 +42,32 @@ for row in clean_data:
     print(row)
 
 print("\nTotal valid records:", len(clean_data))
+
+
+for number in [10, 20, 30]:
+    if number == 20:
+        continue
+
+    print(number)
+
+    clean_data = []
+
+clean_data.append("Line A")
+clean_data.append("Line B")
+
+print(clean_data)
+
+produced = 100
+
+if produced <= 100:
+    print("Production is 100 or below")
+
+
+    status = "FAIL"
+
+if status != "PASS":
+    print("Check production quality")
+
+    production_lines = ["Line A", "Line B", "Line C",'line D']
+
+print(len(production_lines))
